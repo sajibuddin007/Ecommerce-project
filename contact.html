@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an Ecommerce project by making sajib uddin">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="Ecommerce project style.css">
+    <title>Ecommerce project</title>
+
+</head>
+<body>
+    <!-- navbar start here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-around">
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__list">
+                <a href="./Register.html" class="nav__link">Register</a>
+            </li>
+            <li class="nav__list">
+                <a href="login.html" class="nav__link">Login</a>
+            </li>
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">Logout</a>
+            </li>
+            <li class="nav__list">
+                <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+            <li class="nav__list">
+                <a href="profile.html" class="nav__link"><img src="420604615_790094269630179_3469756341577146993_n.jpg" alt="profile icon" class="profile-icon"></a>
+            </li>
+        </ul>
+
+        <ul class="nav-lower flex-around">
+            <li class="nav__list">
+                <a href="./Ecommerce project.html" class="nav__brand nav__link">Sajib Electronic</a>
+            </li>
+            <li class="nav__list">
+                <a href="./card.html" class="nav__link">
+                    <span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </span>
+                    Cart to products -
+                     <i class="fa-solid fa-bangladeshi-taka-sign"></i>
+                      5999
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- navbar ends here -->
+    <main>
+        <section class="contact-section">
+            <h2 class="section-title text-center">Contact Us</h2>
+            <div class="contact-container flex-center">
+                <form action="" class="form card">
+                    <div class="form-control flex-center">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" required autocomplete="name">
+                    </div>
+                    <div class="form-control flex-center">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required autocomplete="email">
+                    </div>
+                    <div class="form-control flex-center">
+                        <label for="Message">Message:</label>
+                        <textarea name="Message" id="Message"></textarea>
+                    </div>
+                    <div class="form-control flex-center form-btn-field">
+                        <button type="submit" class="btn contact-btn">Submit</button>
+                     </div>
+                </form>
+                <div class="contact-address flex-around">
+                    <address>
+                        <h4>Address:</h4>
+                        <p>7010 modhupur </p>
+                        <p>dhahokhola,kumarkhali, kushtia </p><br>
+
+                        <span>Call: </span>
+                        <a href="tel:+8801644046112">01644-046112</a>
+                    </address>
+                    <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d185475.97753229897!2d89.0856182513099!3d23.864509193351513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe91fa6bfcc263%3A0x8b46bb4a0ef47a22!2sKumarkhali%20Upazila!5e1!3m2!1sen!2sbd!4v1709369750068!5m2!1sen!2sbd"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer start here  -->
+    <footer class="footer flex-around">
+        <div class="flex-around">
+            <label for="Subscribe">Subscribe to Newsletter</label>
+            <input type="email" id="Subscribe" name="Subscribe" class="footer__input" placeholder="Your Email Address">
+            <button class="btn btn-Subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2024 sajib uddin.All rights rserved</p>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+    <script src="./Ecommerce project.js"></script>
+</body>
+</html>
